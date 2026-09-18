@@ -1,0 +1,187 @@
+[
+  {
+    "offer_id": "OFFER-D-0011",
+    "product_id": "PROD-D-0011",
+    "type": "coupon",
+    "value": 600,
+    "valid_until": "2026-09-30T23:59:00+00:00",
+    "eligibility": "all_users",
+    "stackable": true
+  },
+  {
+    "offer_id": "OFFER-D-0012",
+    "product_id": "PROD-D-0012",
+    "type": "coupon",
+    "value": 610,
+    "valid_until": "2026-09-30T23:59:00+00:00",
+    "eligibility": "all_users",
+    "stackable": true
+  },
+  {
+    "offer_id": "OFFER-D-0013",
+    "product_id": "PROD-D-0013",
+    "type": "coupon",
+    "value": 620,
+    "valid_until": "2026-09-30T23:59:00+00:00",
+    "eligibility": "all_users",
+    "stackable": true
+  },
+  {
+    "offer_id": "OFFER-D-0014",
+    "product_id": "PROD-D-0014",
+    "type": "coupon",
+    "value": 630,
+    "valid_until": "2026-09-30T23:59:00+00:00",
+    "eligibility": "all_users",
+    "stackable": true
+  },
+  {
+    "offer_id": "OFFER-D-0015",
+    "product_id": "PROD-D-0015",
+    "type": "coupon",
+    "value": 640,
+    "valid_until": "2026-09-30T23:59:00+00:00",
+    "eligibility": "all_users",
+    "stackable": true
+  },
+  {
+    "offer_id": "OFFER-D-D0021",
+    "product_id": "PROD-D-0021",
+    "type": "coupon",
+    "value": 300,
+    "valid_until": "2026-09-30T23:59:00+00:00",
+    "eligibility": "all_users",
+    "stackable": true
+  },
+  {
+    "offer_id": "OFFER-D-K0021",
+    "product_id": "PROD-D-0021",
+    "type": "bank_offer",
+    "value": 400,
+    "valid_until": "2026-09-30T23:59:00+00:00",
+    "eligibility": "bank_card",
+    "stackable": true,
+    "required_card": "HDFC"
+  },
+  {
+    "offer_id": "OFFER-D-D0022",
+    "product_id": "PROD-D-0022",
+    "type": "coupon",
+    "value": 300,
+    "valid_until": "2026-09-30T23:59:00+00:00",
+    "eligibility": "all_users",
+    "stackable": true
+  },
+  {
+    "offer_id": "OFFER-D-K0022",
+    "product_id": "PROD-D-0022",
+    "type": "bank_offer",
+    "value": 400,
+    "valid_until": "2026-09-30T23:59:00+00:00",
+    "eligibility": "bank_card",
+    "stackable": true,
+    "required_card": "HDFC"
+  },
+  {
+    "offer_id": "OFFER-D-D0023",
+    "product_id": "PROD-D-0023",
+    "type": "coupon",
+    "value": 300,
+    "valid_until": "2026-09-30T23:59:00+00:00",
+    "eligibility": "all_users",
+    "stackable": true
+  },
+  {
+    "offer_id": "OFFER-D-K0023",
+    "product_id": "PROD-D-0023",
+    "type": "bank_offer",
+    "value": 400,
+    "valid_until": "2026-09-30T23:59:00+00:00",
+    "eligibility": "bank_card",
+    "stackable": true,
+    "required_card": "HDFC"
+  },
+  {
+    "offer_id": "OFFER-D-D0024",
+    "product_id": "PROD-D-0024",
+    "type": "coupon",
+    "value": 300,
+    "valid_until": "2026-09-30T23:59:00+00:00",
+    "eligibility": "all_users",
+    "stackable": true
+  },
+  {
+    "offer_id": "OFFER-D-K0024",
+    "product_id": "PROD-D-0024",
+    "type": "bank_offer",
+    "value": 400,
+    "valid_until": "2026-09-30T23:59:00+00:00",
+    "eligibility": "bank_card",
+    "stackable": true,
+    "required_card": "HDFC"
+  },
+  {
+    "offer_id": "OFFER-D-D0025",
+    "product_id": "PROD-D-0025",
+    "type": "coupon",
+    "value": 300,
+    "valid_until": "2026-09-30T23:59:00+00:00",
+    "eligibility": "all_users",
+    "stackable": true
+  },
+  {
+    "offer_id": "OFFER-D-K0025",
+    "product_id": "PROD-D-0025",
+    "type": "bank_offer",
+    "value": 400,
+    "valid_until": "2026-09-30T23:59:00+00:00",
+    "eligibility": "bank_card",
+    "stackable": true,
+    "required_card": "HDFC"
+  },
+  {
+    "offer_id": "OFFER-D-Q0026",
+    "product_id": "PROD-D-0026",
+    "type": "coupon",
+    "value": 350,
+    "valid_until": "2026-09-30T23:59:00+00:00",
+    "eligibility": "all_users",
+    "stackable": true
+  },
+  {
+    "offer_id": "OFFER-D-Q0027",
+    "product_id": "PROD-D-0027",
+    "type": "coupon",
+    "value": 350,
+    "valid_until": "2026-09-30T23:59:00+00:00",
+    "eligibility": "all_users",
+    "stackable": true
+  },
+  {
+    "offer_id": "OFFER-D-Q0028",
+    "product_id": "PROD-D-0028",
+    "type": "coupon",
+    "value": 350,
+    "valid_until": "2026-09-30T23:59:00+00:00",
+    "eligibility": "all_users",
+    "stackable": true
+  },
+  {
+    "offer_id": "OFFER-D-Q0029",
+    "product_id": "PROD-D-0029",
+    "type": "coupon",
+    "value": 350,
+    "valid_until": "2026-09-30T23:59:00+00:00",
+    "eligibility": "all_users",
+    "stackable": true
+  },
+  {
+    "offer_id": "OFFER-D-Q0030",
+    "product_id": "PROD-D-0030",
+    "type": "coupon",
+    "value": 350,
+    "valid_until": "2026-09-30T23:59:00+00:00",
+    "eligibility": "all_users",
+    "stackable": true
+  }
+]

@@ -1,0 +1,462 @@
+[
+  {
+    "product_id": "PROD-D-0001",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0001",
+    "history": [
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 5000
+      },
+      {
+        "timestamp": "2026-09-10T10:00:00+00:00",
+        "price": 4700
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 4200
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0002",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0002",
+    "history": [
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 5000
+      },
+      {
+        "timestamp": "2026-09-10T10:00:00+00:00",
+        "price": 4700
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 4180
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0003",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0003",
+    "history": [
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 5000
+      },
+      {
+        "timestamp": "2026-09-10T10:00:00+00:00",
+        "price": 4700
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 4160
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0004",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0004",
+    "history": [
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 5000
+      },
+      {
+        "timestamp": "2026-09-10T10:00:00+00:00",
+        "price": 4700
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 4140
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0005",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0005",
+    "history": [
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 5000
+      },
+      {
+        "timestamp": "2026-09-10T10:00:00+00:00",
+        "price": 4700
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 4120
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0006",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0006",
+    "history": [
+      {
+        "timestamp": "2026-08-15T10:00:00+00:00",
+        "price": 4700
+      },
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 5000
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0007",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0007",
+    "history": [
+      {
+        "timestamp": "2026-08-15T10:00:00+00:00",
+        "price": 4700
+      },
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 5000
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0008",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0008",
+    "history": [
+      {
+        "timestamp": "2026-08-15T10:00:00+00:00",
+        "price": 4700
+      },
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 5000
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0009",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0009",
+    "history": [
+      {
+        "timestamp": "2026-08-15T10:00:00+00:00",
+        "price": 4700
+      },
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 5000
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0010",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0010",
+    "history": [
+      {
+        "timestamp": "2026-08-15T10:00:00+00:00",
+        "price": 4700
+      },
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 5000
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0011",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0011",
+    "history": [
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 4300
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 4300
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0012",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0012",
+    "history": [
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 4300
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 4300
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0013",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0013",
+    "history": [
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 4300
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 4300
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0014",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0014",
+    "history": [
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 4300
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 4300
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0015",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0015",
+    "history": [
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 4300
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 4300
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0016",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0016",
+    "history": [
+      {
+        "timestamp": "2026-08-25T10:00:00+00:00",
+        "price": 3990
+      },
+      {
+        "timestamp": "2026-09-05T10:00:00+00:00",
+        "price": 3800
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 3550
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0017",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0017",
+    "history": [
+      {
+        "timestamp": "2026-08-25T10:00:00+00:00",
+        "price": 3990
+      },
+      {
+        "timestamp": "2026-09-05T10:00:00+00:00",
+        "price": 3800
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 3535
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0018",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0018",
+    "history": [
+      {
+        "timestamp": "2026-08-25T10:00:00+00:00",
+        "price": 3990
+      },
+      {
+        "timestamp": "2026-09-05T10:00:00+00:00",
+        "price": 3800
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 3520
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0019",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0019",
+    "history": [
+      {
+        "timestamp": "2026-08-25T10:00:00+00:00",
+        "price": 3990
+      },
+      {
+        "timestamp": "2026-09-05T10:00:00+00:00",
+        "price": 3800
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 3505
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0020",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0020",
+    "history": [
+      {
+        "timestamp": "2026-08-25T10:00:00+00:00",
+        "price": 3990
+      },
+      {
+        "timestamp": "2026-09-05T10:00:00+00:00",
+        "price": 3800
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 3490
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0021",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0021",
+    "history": [
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 5000
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 4500
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0022",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0022",
+    "history": [
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 5000
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 4500
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0023",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0023",
+    "history": [
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 5000
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 4500
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0024",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0024",
+    "history": [
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 5000
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 4500
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0025",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0025",
+    "history": [
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 5000
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 4500
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0026",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0026",
+    "history": [
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 5000
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 4100
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0027",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0027",
+    "history": [
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 5000
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 4100
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0028",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0028",
+    "history": [
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 5000
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 4100
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0029",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0029",
+    "history": [
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 5000
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 4100
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D-0030",
+    "evidence_id": "PRICE-HISTORY-PROD-D-0030",
+    "history": [
+      {
+        "timestamp": "2026-09-01T10:00:00+00:00",
+        "price": 5000
+      },
+      {
+        "timestamp": "2026-09-17T10:00:00+00:00",
+        "price": 4100
+      }
+    ]
+  }
+]

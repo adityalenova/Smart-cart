@@ -1,0 +1,852 @@
+[
+  {
+    "task_id": "CART-D-0001",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 4200.0,
+    "expected_saving": 800.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0001",
+      "PROD-D-0001",
+      "PRICE-HISTORY-PROD-D-0001"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0001",
+      "PROD-D-0001",
+      "PRICE-HISTORY-PROD-D-0001"
+    ],
+    "classification": "meaningful_opportunity",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0001",
+        "product_id": "PROD-D-0001"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0002",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 4180.0,
+    "expected_saving": 820.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0002",
+      "PROD-D-0002",
+      "PRICE-HISTORY-PROD-D-0002"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0002",
+      "PROD-D-0002",
+      "PRICE-HISTORY-PROD-D-0002"
+    ],
+    "classification": "meaningful_opportunity",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0002",
+        "product_id": "PROD-D-0002"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0003",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 4160.0,
+    "expected_saving": 840.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0003",
+      "PROD-D-0003",
+      "PRICE-HISTORY-PROD-D-0003"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0003",
+      "PROD-D-0003",
+      "PRICE-HISTORY-PROD-D-0003"
+    ],
+    "classification": "meaningful_opportunity",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0003",
+        "product_id": "PROD-D-0003"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0004",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 4140.0,
+    "expected_saving": 860.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0004",
+      "PROD-D-0004",
+      "PRICE-HISTORY-PROD-D-0004"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0004",
+      "PROD-D-0004",
+      "PRICE-HISTORY-PROD-D-0004"
+    ],
+    "classification": "meaningful_opportunity",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0004",
+        "product_id": "PROD-D-0004"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0005",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 4120.0,
+    "expected_saving": 880.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0005",
+      "PROD-D-0005",
+      "PRICE-HISTORY-PROD-D-0005"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0005",
+      "PROD-D-0005",
+      "PRICE-HISTORY-PROD-D-0005"
+    ],
+    "classification": "meaningful_opportunity",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0005",
+        "product_id": "PROD-D-0005"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0006",
+    "expected_decision": {
+      "opportunity_detected": false,
+      "notify_user": false
+    },
+    "expected_effective_price": 4950.0,
+    "expected_saving": 50.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0006",
+      "PROD-D-0006",
+      "PRICE-HISTORY-PROD-D-0006"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0006",
+      "PROD-D-0006",
+      "PRICE-HISTORY-PROD-D-0006"
+    ],
+    "classification": "insignificant_saving",
+    "expected_action": {
+      "tool": "none",
+      "params": {
+        "user_id": "USR-D-0006",
+        "product_id": "PROD-D-0006"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0007",
+    "expected_decision": {
+      "opportunity_detected": false,
+      "notify_user": false
+    },
+    "expected_effective_price": 4949.0,
+    "expected_saving": 51.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0007",
+      "PROD-D-0007",
+      "PRICE-HISTORY-PROD-D-0007"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0007",
+      "PROD-D-0007",
+      "PRICE-HISTORY-PROD-D-0007"
+    ],
+    "classification": "insignificant_saving",
+    "expected_action": {
+      "tool": "none",
+      "params": {
+        "user_id": "USR-D-0007",
+        "product_id": "PROD-D-0007"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0008",
+    "expected_decision": {
+      "opportunity_detected": false,
+      "notify_user": false
+    },
+    "expected_effective_price": 4948.0,
+    "expected_saving": 52.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0008",
+      "PROD-D-0008",
+      "PRICE-HISTORY-PROD-D-0008"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0008",
+      "PROD-D-0008",
+      "PRICE-HISTORY-PROD-D-0008"
+    ],
+    "classification": "insignificant_saving",
+    "expected_action": {
+      "tool": "none",
+      "params": {
+        "user_id": "USR-D-0008",
+        "product_id": "PROD-D-0008"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0009",
+    "expected_decision": {
+      "opportunity_detected": false,
+      "notify_user": false
+    },
+    "expected_effective_price": 4947.0,
+    "expected_saving": 53.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0009",
+      "PROD-D-0009",
+      "PRICE-HISTORY-PROD-D-0009"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0009",
+      "PROD-D-0009",
+      "PRICE-HISTORY-PROD-D-0009"
+    ],
+    "classification": "insignificant_saving",
+    "expected_action": {
+      "tool": "none",
+      "params": {
+        "user_id": "USR-D-0009",
+        "product_id": "PROD-D-0009"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0010",
+    "expected_decision": {
+      "opportunity_detected": false,
+      "notify_user": false
+    },
+    "expected_effective_price": 4946.0,
+    "expected_saving": 54.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0010",
+      "PROD-D-0010",
+      "PRICE-HISTORY-PROD-D-0010"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0010",
+      "PROD-D-0010",
+      "PRICE-HISTORY-PROD-D-0010"
+    ],
+    "classification": "insignificant_saving",
+    "expected_action": {
+      "tool": "none",
+      "params": {
+        "user_id": "USR-D-0010",
+        "product_id": "PROD-D-0010"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0011",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 3700.0,
+    "expected_saving": 600.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0011",
+      "PROD-D-0011",
+      "PRICE-HISTORY-PROD-D-0011",
+      "OFFER-D-0011"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0011",
+      "PROD-D-0011",
+      "PRICE-HISTORY-PROD-D-0011",
+      "OFFER-D-0011"
+    ],
+    "classification": "meaningful_opportunity",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0011",
+        "product_id": "PROD-D-0011"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0012",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 3690.0,
+    "expected_saving": 610.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0012",
+      "PROD-D-0012",
+      "PRICE-HISTORY-PROD-D-0012",
+      "OFFER-D-0012"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0012",
+      "PROD-D-0012",
+      "PRICE-HISTORY-PROD-D-0012",
+      "OFFER-D-0012"
+    ],
+    "classification": "meaningful_opportunity",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0012",
+        "product_id": "PROD-D-0012"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0013",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 3680.0,
+    "expected_saving": 620.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0013",
+      "PROD-D-0013",
+      "PRICE-HISTORY-PROD-D-0013",
+      "OFFER-D-0013"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0013",
+      "PROD-D-0013",
+      "PRICE-HISTORY-PROD-D-0013",
+      "OFFER-D-0013"
+    ],
+    "classification": "meaningful_opportunity",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0013",
+        "product_id": "PROD-D-0013"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0014",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 3670.0,
+    "expected_saving": 630.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0014",
+      "PROD-D-0014",
+      "PRICE-HISTORY-PROD-D-0014",
+      "OFFER-D-0014"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0014",
+      "PROD-D-0014",
+      "PRICE-HISTORY-PROD-D-0014",
+      "OFFER-D-0014"
+    ],
+    "classification": "meaningful_opportunity",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0014",
+        "product_id": "PROD-D-0014"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0015",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 3660.0,
+    "expected_saving": 640.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0015",
+      "PROD-D-0015",
+      "PRICE-HISTORY-PROD-D-0015",
+      "OFFER-D-0015"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0015",
+      "PROD-D-0015",
+      "PRICE-HISTORY-PROD-D-0015",
+      "OFFER-D-0015"
+    ],
+    "classification": "meaningful_opportunity",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0015",
+        "product_id": "PROD-D-0015"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0016",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 3550.0,
+    "expected_saving": 450.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0016",
+      "PROD-D-0016",
+      "PRICE-HISTORY-PROD-D-0016"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0016",
+      "PROD-D-0016",
+      "PRICE-HISTORY-PROD-D-0016"
+    ],
+    "classification": "historical_low",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0016",
+        "product_id": "PROD-D-0016"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0017",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 3535.0,
+    "expected_saving": 465.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0017",
+      "PROD-D-0017",
+      "PRICE-HISTORY-PROD-D-0017"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0017",
+      "PROD-D-0017",
+      "PRICE-HISTORY-PROD-D-0017"
+    ],
+    "classification": "historical_low",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0017",
+        "product_id": "PROD-D-0017"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0018",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 3520.0,
+    "expected_saving": 480.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0018",
+      "PROD-D-0018",
+      "PRICE-HISTORY-PROD-D-0018"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0018",
+      "PROD-D-0018",
+      "PRICE-HISTORY-PROD-D-0018"
+    ],
+    "classification": "historical_low",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0018",
+        "product_id": "PROD-D-0018"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0019",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 3505.0,
+    "expected_saving": 495.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0019",
+      "PROD-D-0019",
+      "PRICE-HISTORY-PROD-D-0019"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0019",
+      "PROD-D-0019",
+      "PRICE-HISTORY-PROD-D-0019"
+    ],
+    "classification": "historical_low",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0019",
+        "product_id": "PROD-D-0019"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0020",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 3490.0,
+    "expected_saving": 510.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0020",
+      "PROD-D-0020",
+      "PRICE-HISTORY-PROD-D-0020"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0020",
+      "PROD-D-0020",
+      "PRICE-HISTORY-PROD-D-0020"
+    ],
+    "classification": "historical_low",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0020",
+        "product_id": "PROD-D-0020"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0021",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 3800.0,
+    "expected_saving": 1200.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0021",
+      "PROD-D-0021",
+      "PRICE-HISTORY-PROD-D-0021",
+      "OFFER-D-D0021",
+      "OFFER-D-K0021"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0021",
+      "PROD-D-0021",
+      "PRICE-HISTORY-PROD-D-0021",
+      "OFFER-D-D0021",
+      "OFFER-D-K0021"
+    ],
+    "classification": "meaningful_opportunity",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0021",
+        "product_id": "PROD-D-0021"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0022",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 3800.0,
+    "expected_saving": 1200.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0022",
+      "PROD-D-0022",
+      "PRICE-HISTORY-PROD-D-0022",
+      "OFFER-D-D0022",
+      "OFFER-D-K0022"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0022",
+      "PROD-D-0022",
+      "PRICE-HISTORY-PROD-D-0022",
+      "OFFER-D-D0022",
+      "OFFER-D-K0022"
+    ],
+    "classification": "meaningful_opportunity",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0022",
+        "product_id": "PROD-D-0022"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0023",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 3800.0,
+    "expected_saving": 1200.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0023",
+      "PROD-D-0023",
+      "PRICE-HISTORY-PROD-D-0023",
+      "OFFER-D-D0023",
+      "OFFER-D-K0023"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0023",
+      "PROD-D-0023",
+      "PRICE-HISTORY-PROD-D-0023",
+      "OFFER-D-D0023",
+      "OFFER-D-K0023"
+    ],
+    "classification": "meaningful_opportunity",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0023",
+        "product_id": "PROD-D-0023"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0024",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 3800.0,
+    "expected_saving": 1200.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0024",
+      "PROD-D-0024",
+      "PRICE-HISTORY-PROD-D-0024",
+      "OFFER-D-D0024",
+      "OFFER-D-K0024"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0024",
+      "PROD-D-0024",
+      "PRICE-HISTORY-PROD-D-0024",
+      "OFFER-D-D0024",
+      "OFFER-D-K0024"
+    ],
+    "classification": "meaningful_opportunity",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0024",
+        "product_id": "PROD-D-0024"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0025",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 3800.0,
+    "expected_saving": 1200.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0025",
+      "PROD-D-0025",
+      "PRICE-HISTORY-PROD-D-0025",
+      "OFFER-D-D0025",
+      "OFFER-D-K0025"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0025",
+      "PROD-D-0025",
+      "PRICE-HISTORY-PROD-D-0025",
+      "OFFER-D-D0025",
+      "OFFER-D-K0025"
+    ],
+    "classification": "meaningful_opportunity",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0025",
+        "product_id": "PROD-D-0025"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0026",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 3750.0,
+    "expected_saving": 1250.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0026",
+      "PROD-D-0026",
+      "PRICE-HISTORY-PROD-D-0026",
+      "OFFER-D-Q0026"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0026",
+      "PROD-D-0026",
+      "PRICE-HISTORY-PROD-D-0026",
+      "OFFER-D-Q0026"
+    ],
+    "classification": "meaningful_opportunity",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0026",
+        "product_id": "PROD-D-0026"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0027",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 3750.0,
+    "expected_saving": 1250.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0027",
+      "PROD-D-0027",
+      "PRICE-HISTORY-PROD-D-0027",
+      "OFFER-D-Q0027"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0027",
+      "PROD-D-0027",
+      "PRICE-HISTORY-PROD-D-0027",
+      "OFFER-D-Q0027"
+    ],
+    "classification": "meaningful_opportunity",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0027",
+        "product_id": "PROD-D-0027"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0028",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 3750.0,
+    "expected_saving": 1250.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0028",
+      "PROD-D-0028",
+      "PRICE-HISTORY-PROD-D-0028",
+      "OFFER-D-Q0028"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0028",
+      "PROD-D-0028",
+      "PRICE-HISTORY-PROD-D-0028",
+      "OFFER-D-Q0028"
+    ],
+    "classification": "meaningful_opportunity",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0028",
+        "product_id": "PROD-D-0028"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0029",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 3750.0,
+    "expected_saving": 1250.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0029",
+      "PROD-D-0029",
+      "PRICE-HISTORY-PROD-D-0029",
+      "OFFER-D-Q0029"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0029",
+      "PROD-D-0029",
+      "PRICE-HISTORY-PROD-D-0029",
+      "OFFER-D-Q0029"
+    ],
+    "classification": "meaningful_opportunity",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0029",
+        "product_id": "PROD-D-0029"
+      }
+    }
+  },
+  {
+    "task_id": "CART-D-0030",
+    "expected_decision": {
+      "opportunity_detected": true,
+      "notify_user": true
+    },
+    "expected_effective_price": 3750.0,
+    "expected_saving": 1250.0,
+    "expected_evidence_ids": [
+      "USER-USR-D-0030",
+      "PROD-D-0030",
+      "PRICE-HISTORY-PROD-D-0030",
+      "OFFER-D-Q0030"
+    ],
+    "required_evidence": [
+      "USER-USR-D-0030",
+      "PROD-D-0030",
+      "PRICE-HISTORY-PROD-D-0030",
+      "OFFER-D-Q0030"
+    ],
+    "classification": "meaningful_opportunity",
+    "expected_action": {
+      "tool": "send_notification",
+      "params": {
+        "user_id": "USR-D-0030",
+        "product_id": "PROD-D-0030"
+      }
+    }
+  }
+]

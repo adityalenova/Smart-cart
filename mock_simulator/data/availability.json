@@ -1,0 +1,152 @@
+[
+  {
+    "product_id": "PROD-D-0001",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0002",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0003",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0004",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0005",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0006",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0007",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0008",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0009",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0010",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0011",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0012",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0013",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0014",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0015",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0016",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0017",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0018",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0019",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0020",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0021",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0022",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0023",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0024",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0025",
+    "availability": "in_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0026",
+    "availability": "low_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0027",
+    "availability": "low_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0028",
+    "availability": "low_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0029",
+    "availability": "low_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD-D-0030",
+    "availability": "low_stock",
+    "updated_at": "2026-09-17T10:00:00+00:00"
+  }
+]

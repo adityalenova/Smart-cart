@@ -1,0 +1,6 @@
+{
+  "name": "SmartCart Agent Arena",
+  "description": "Autonomous shopping monitoring agent and evaluation dashboard for the SmartCart Arena challenge.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

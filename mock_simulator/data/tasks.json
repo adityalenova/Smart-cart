@@ -1,0 +1,2672 @@
+[
+  {
+    "task_id": "CART-D-0001",
+    "dataset": "dev",
+    "family": "price_drop",
+    "variant": "significant_drop",
+    "input_payload": {
+      "user_id": "USR-D-0001",
+      "product_id": "PROD-D-0001",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "PRICE_CHANGED",
+        "product_id": "PROD-D-0001"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0001",
+          "budget_limit": 4500,
+          "minimum_saving": 500,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0001",
+          "name": "Wireless Headphones",
+          "category": "Audio",
+          "brand": "Sony",
+          "current_price": 4200,
+          "mrp": 6000,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 5000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0001",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0001",
+          "history": [
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 5000
+            },
+            {
+              "timestamp": "2026-09-10T10:00:00+00:00",
+              "price": 4700
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 4200
+            }
+          ]
+        }
+      ],
+      "offers": [],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0001",
+          "products": [
+            "PROD-D-0001"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0001",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0002",
+    "dataset": "dev",
+    "family": "price_drop",
+    "variant": "significant_drop",
+    "input_payload": {
+      "user_id": "USR-D-0002",
+      "product_id": "PROD-D-0002",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "PRICE_CHANGED",
+        "product_id": "PROD-D-0002"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0002",
+          "budget_limit": 4500,
+          "minimum_saving": 500,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0002",
+          "name": "Wireless Headphones",
+          "category": "Audio",
+          "brand": "Sony",
+          "current_price": 4180,
+          "mrp": 6000,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 5000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0002",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0002",
+          "history": [
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 5000
+            },
+            {
+              "timestamp": "2026-09-10T10:00:00+00:00",
+              "price": 4700
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 4180
+            }
+          ]
+        }
+      ],
+      "offers": [],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0002",
+          "products": [
+            "PROD-D-0002"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0002",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0003",
+    "dataset": "dev",
+    "family": "price_drop",
+    "variant": "significant_drop",
+    "input_payload": {
+      "user_id": "USR-D-0003",
+      "product_id": "PROD-D-0003",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "PRICE_CHANGED",
+        "product_id": "PROD-D-0003"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0003",
+          "budget_limit": 4500,
+          "minimum_saving": 500,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0003",
+          "name": "Wireless Headphones",
+          "category": "Audio",
+          "brand": "Sony",
+          "current_price": 4160,
+          "mrp": 6000,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 5000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0003",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0003",
+          "history": [
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 5000
+            },
+            {
+              "timestamp": "2026-09-10T10:00:00+00:00",
+              "price": 4700
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 4160
+            }
+          ]
+        }
+      ],
+      "offers": [],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0003",
+          "products": [
+            "PROD-D-0003"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0003",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0004",
+    "dataset": "dev",
+    "family": "price_drop",
+    "variant": "significant_drop",
+    "input_payload": {
+      "user_id": "USR-D-0004",
+      "product_id": "PROD-D-0004",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "PRICE_CHANGED",
+        "product_id": "PROD-D-0004"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0004",
+          "budget_limit": 4500,
+          "minimum_saving": 500,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0004",
+          "name": "Wireless Headphones",
+          "category": "Audio",
+          "brand": "Sony",
+          "current_price": 4140,
+          "mrp": 6000,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 5000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0004",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0004",
+          "history": [
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 5000
+            },
+            {
+              "timestamp": "2026-09-10T10:00:00+00:00",
+              "price": 4700
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 4140
+            }
+          ]
+        }
+      ],
+      "offers": [],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0004",
+          "products": [
+            "PROD-D-0004"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0004",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0005",
+    "dataset": "dev",
+    "family": "price_drop",
+    "variant": "significant_drop",
+    "input_payload": {
+      "user_id": "USR-D-0005",
+      "product_id": "PROD-D-0005",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "PRICE_CHANGED",
+        "product_id": "PROD-D-0005"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0005",
+          "budget_limit": 4500,
+          "minimum_saving": 500,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0005",
+          "name": "Wireless Headphones",
+          "category": "Audio",
+          "brand": "Sony",
+          "current_price": 4120,
+          "mrp": 6000,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 5000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0005",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0005",
+          "history": [
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 5000
+            },
+            {
+              "timestamp": "2026-09-10T10:00:00+00:00",
+              "price": 4700
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 4120
+            }
+          ]
+        }
+      ],
+      "offers": [],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0005",
+          "products": [
+            "PROD-D-0005"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0005",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0006",
+    "dataset": "dev",
+    "family": "no_notification",
+    "variant": "below_saving_threshold",
+    "input_payload": {
+      "user_id": "USR-D-0006",
+      "product_id": "PROD-D-0006",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "PRICE_CHANGED",
+        "product_id": "PROD-D-0006"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0006",
+          "budget_limit": 6000,
+          "minimum_saving": 500,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0006",
+          "name": "Bluetooth Speaker",
+          "category": "Audio",
+          "brand": "JBL",
+          "current_price": 4950,
+          "mrp": 6000,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 5000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0006",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0006",
+          "history": [
+            {
+              "timestamp": "2026-08-15T10:00:00+00:00",
+              "price": 4700
+            },
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 5000
+            }
+          ]
+        }
+      ],
+      "offers": [],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0006",
+          "products": [
+            "PROD-D-0006"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0006",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0007",
+    "dataset": "dev",
+    "family": "no_notification",
+    "variant": "below_saving_threshold",
+    "input_payload": {
+      "user_id": "USR-D-0007",
+      "product_id": "PROD-D-0007",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "PRICE_CHANGED",
+        "product_id": "PROD-D-0007"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0007",
+          "budget_limit": 6000,
+          "minimum_saving": 500,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0007",
+          "name": "Bluetooth Speaker",
+          "category": "Audio",
+          "brand": "JBL",
+          "current_price": 4949,
+          "mrp": 6000,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 5000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0007",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0007",
+          "history": [
+            {
+              "timestamp": "2026-08-15T10:00:00+00:00",
+              "price": 4700
+            },
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 5000
+            }
+          ]
+        }
+      ],
+      "offers": [],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0007",
+          "products": [
+            "PROD-D-0007"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0007",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0008",
+    "dataset": "dev",
+    "family": "no_notification",
+    "variant": "below_saving_threshold",
+    "input_payload": {
+      "user_id": "USR-D-0008",
+      "product_id": "PROD-D-0008",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "PRICE_CHANGED",
+        "product_id": "PROD-D-0008"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0008",
+          "budget_limit": 6000,
+          "minimum_saving": 500,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0008",
+          "name": "Bluetooth Speaker",
+          "category": "Audio",
+          "brand": "JBL",
+          "current_price": 4948,
+          "mrp": 6000,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 5000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0008",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0008",
+          "history": [
+            {
+              "timestamp": "2026-08-15T10:00:00+00:00",
+              "price": 4700
+            },
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 5000
+            }
+          ]
+        }
+      ],
+      "offers": [],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0008",
+          "products": [
+            "PROD-D-0008"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0008",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0009",
+    "dataset": "dev",
+    "family": "no_notification",
+    "variant": "below_saving_threshold",
+    "input_payload": {
+      "user_id": "USR-D-0009",
+      "product_id": "PROD-D-0009",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "PRICE_CHANGED",
+        "product_id": "PROD-D-0009"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0009",
+          "budget_limit": 6000,
+          "minimum_saving": 500,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0009",
+          "name": "Bluetooth Speaker",
+          "category": "Audio",
+          "brand": "JBL",
+          "current_price": 4947,
+          "mrp": 6000,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 5000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0009",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0009",
+          "history": [
+            {
+              "timestamp": "2026-08-15T10:00:00+00:00",
+              "price": 4700
+            },
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 5000
+            }
+          ]
+        }
+      ],
+      "offers": [],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0009",
+          "products": [
+            "PROD-D-0009"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0009",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0010",
+    "dataset": "dev",
+    "family": "no_notification",
+    "variant": "below_saving_threshold",
+    "input_payload": {
+      "user_id": "USR-D-0010",
+      "product_id": "PROD-D-0010",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "PRICE_CHANGED",
+        "product_id": "PROD-D-0010"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0010",
+          "budget_limit": 6000,
+          "minimum_saving": 500,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0010",
+          "name": "Bluetooth Speaker",
+          "category": "Audio",
+          "brand": "JBL",
+          "current_price": 4946,
+          "mrp": 6000,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 5000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0010",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0010",
+          "history": [
+            {
+              "timestamp": "2026-08-15T10:00:00+00:00",
+              "price": 4700
+            },
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 5000
+            }
+          ]
+        }
+      ],
+      "offers": [],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0010",
+          "products": [
+            "PROD-D-0010"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0010",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0011",
+    "dataset": "dev",
+    "family": "coupon_change",
+    "variant": "new_coupon",
+    "input_payload": {
+      "user_id": "USR-D-0011",
+      "product_id": "PROD-D-0011",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "OFFER_ADDED",
+        "product_id": "PROD-D-0011"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0011",
+          "budget_limit": 4500,
+          "minimum_saving": 400,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0011",
+          "name": "Noise Cancelling Headphones",
+          "category": "Audio",
+          "brand": "Sony",
+          "current_price": 4300,
+          "mrp": 5999,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 4300
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0011",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0011",
+          "history": [
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 4300
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 4300
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "offer_id": "OFFER-D-0011",
+          "product_id": "PROD-D-0011",
+          "type": "coupon",
+          "value": 600,
+          "valid_until": "2026-09-30T23:59:00+00:00",
+          "eligibility": "all_users",
+          "stackable": true
+        }
+      ],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0011",
+          "products": [
+            "PROD-D-0011"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0011",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0012",
+    "dataset": "dev",
+    "family": "coupon_change",
+    "variant": "new_coupon",
+    "input_payload": {
+      "user_id": "USR-D-0012",
+      "product_id": "PROD-D-0012",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "OFFER_ADDED",
+        "product_id": "PROD-D-0012"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0012",
+          "budget_limit": 4500,
+          "minimum_saving": 400,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0012",
+          "name": "Noise Cancelling Headphones",
+          "category": "Audio",
+          "brand": "Sony",
+          "current_price": 4300,
+          "mrp": 5999,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 4300
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0012",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0012",
+          "history": [
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 4300
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 4300
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "offer_id": "OFFER-D-0012",
+          "product_id": "PROD-D-0012",
+          "type": "coupon",
+          "value": 610,
+          "valid_until": "2026-09-30T23:59:00+00:00",
+          "eligibility": "all_users",
+          "stackable": true
+        }
+      ],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0012",
+          "products": [
+            "PROD-D-0012"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0012",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0013",
+    "dataset": "dev",
+    "family": "coupon_change",
+    "variant": "new_coupon",
+    "input_payload": {
+      "user_id": "USR-D-0013",
+      "product_id": "PROD-D-0013",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "OFFER_ADDED",
+        "product_id": "PROD-D-0013"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0013",
+          "budget_limit": 4500,
+          "minimum_saving": 400,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0013",
+          "name": "Noise Cancelling Headphones",
+          "category": "Audio",
+          "brand": "Sony",
+          "current_price": 4300,
+          "mrp": 5999,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 4300
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0013",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0013",
+          "history": [
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 4300
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 4300
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "offer_id": "OFFER-D-0013",
+          "product_id": "PROD-D-0013",
+          "type": "coupon",
+          "value": 620,
+          "valid_until": "2026-09-30T23:59:00+00:00",
+          "eligibility": "all_users",
+          "stackable": true
+        }
+      ],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0013",
+          "products": [
+            "PROD-D-0013"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0013",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0014",
+    "dataset": "dev",
+    "family": "coupon_change",
+    "variant": "new_coupon",
+    "input_payload": {
+      "user_id": "USR-D-0014",
+      "product_id": "PROD-D-0014",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "OFFER_ADDED",
+        "product_id": "PROD-D-0014"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0014",
+          "budget_limit": 4500,
+          "minimum_saving": 400,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0014",
+          "name": "Noise Cancelling Headphones",
+          "category": "Audio",
+          "brand": "Sony",
+          "current_price": 4300,
+          "mrp": 5999,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 4300
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0014",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0014",
+          "history": [
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 4300
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 4300
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "offer_id": "OFFER-D-0014",
+          "product_id": "PROD-D-0014",
+          "type": "coupon",
+          "value": 630,
+          "valid_until": "2026-09-30T23:59:00+00:00",
+          "eligibility": "all_users",
+          "stackable": true
+        }
+      ],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0014",
+          "products": [
+            "PROD-D-0014"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0014",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0015",
+    "dataset": "dev",
+    "family": "coupon_change",
+    "variant": "new_coupon",
+    "input_payload": {
+      "user_id": "USR-D-0015",
+      "product_id": "PROD-D-0015",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "OFFER_ADDED",
+        "product_id": "PROD-D-0015"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0015",
+          "budget_limit": 4500,
+          "minimum_saving": 400,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0015",
+          "name": "Noise Cancelling Headphones",
+          "category": "Audio",
+          "brand": "Sony",
+          "current_price": 4300,
+          "mrp": 5999,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 4300
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0015",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0015",
+          "history": [
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 4300
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 4300
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "offer_id": "OFFER-D-0015",
+          "product_id": "PROD-D-0015",
+          "type": "coupon",
+          "value": 640,
+          "valid_until": "2026-09-30T23:59:00+00:00",
+          "eligibility": "all_users",
+          "stackable": true
+        }
+      ],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0015",
+          "products": [
+            "PROD-D-0015"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0015",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0016",
+    "dataset": "dev",
+    "family": "historical_price",
+    "variant": "below_30_day_low",
+    "input_payload": {
+      "user_id": "USR-D-0016",
+      "product_id": "PROD-D-0016",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "PRICE_CHANGED",
+        "product_id": "PROD-D-0016"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0016",
+          "budget_limit": 4200,
+          "minimum_saving": 150,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0016",
+          "name": "Portable Speaker",
+          "category": "Audio",
+          "brand": "JBL",
+          "current_price": 3550,
+          "mrp": 4990,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 4000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0016",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0016",
+          "history": [
+            {
+              "timestamp": "2026-08-25T10:00:00+00:00",
+              "price": 3990
+            },
+            {
+              "timestamp": "2026-09-05T10:00:00+00:00",
+              "price": 3800
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 3550
+            }
+          ]
+        }
+      ],
+      "offers": [],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0016",
+          "products": [
+            "PROD-D-0016"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0016",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0017",
+    "dataset": "dev",
+    "family": "historical_price",
+    "variant": "below_30_day_low",
+    "input_payload": {
+      "user_id": "USR-D-0017",
+      "product_id": "PROD-D-0017",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "PRICE_CHANGED",
+        "product_id": "PROD-D-0017"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0017",
+          "budget_limit": 4200,
+          "minimum_saving": 150,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0017",
+          "name": "Portable Speaker",
+          "category": "Audio",
+          "brand": "JBL",
+          "current_price": 3535,
+          "mrp": 4990,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 4000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0017",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0017",
+          "history": [
+            {
+              "timestamp": "2026-08-25T10:00:00+00:00",
+              "price": 3990
+            },
+            {
+              "timestamp": "2026-09-05T10:00:00+00:00",
+              "price": 3800
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 3535
+            }
+          ]
+        }
+      ],
+      "offers": [],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0017",
+          "products": [
+            "PROD-D-0017"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0017",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0018",
+    "dataset": "dev",
+    "family": "historical_price",
+    "variant": "below_30_day_low",
+    "input_payload": {
+      "user_id": "USR-D-0018",
+      "product_id": "PROD-D-0018",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "PRICE_CHANGED",
+        "product_id": "PROD-D-0018"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0018",
+          "budget_limit": 4200,
+          "minimum_saving": 150,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0018",
+          "name": "Portable Speaker",
+          "category": "Audio",
+          "brand": "JBL",
+          "current_price": 3520,
+          "mrp": 4990,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 4000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0018",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0018",
+          "history": [
+            {
+              "timestamp": "2026-08-25T10:00:00+00:00",
+              "price": 3990
+            },
+            {
+              "timestamp": "2026-09-05T10:00:00+00:00",
+              "price": 3800
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 3520
+            }
+          ]
+        }
+      ],
+      "offers": [],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0018",
+          "products": [
+            "PROD-D-0018"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0018",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0019",
+    "dataset": "dev",
+    "family": "historical_price",
+    "variant": "below_30_day_low",
+    "input_payload": {
+      "user_id": "USR-D-0019",
+      "product_id": "PROD-D-0019",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "PRICE_CHANGED",
+        "product_id": "PROD-D-0019"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0019",
+          "budget_limit": 4200,
+          "minimum_saving": 150,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0019",
+          "name": "Portable Speaker",
+          "category": "Audio",
+          "brand": "JBL",
+          "current_price": 3505,
+          "mrp": 4990,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 4000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0019",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0019",
+          "history": [
+            {
+              "timestamp": "2026-08-25T10:00:00+00:00",
+              "price": 3990
+            },
+            {
+              "timestamp": "2026-09-05T10:00:00+00:00",
+              "price": 3800
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 3505
+            }
+          ]
+        }
+      ],
+      "offers": [],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0019",
+          "products": [
+            "PROD-D-0019"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0019",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0020",
+    "dataset": "dev",
+    "family": "historical_price",
+    "variant": "below_30_day_low",
+    "input_payload": {
+      "user_id": "USR-D-0020",
+      "product_id": "PROD-D-0020",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "PRICE_CHANGED",
+        "product_id": "PROD-D-0020"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0020",
+          "budget_limit": 4200,
+          "minimum_saving": 150,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0020",
+          "name": "Portable Speaker",
+          "category": "Audio",
+          "brand": "JBL",
+          "current_price": 3490,
+          "mrp": 4990,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 4000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0020",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0020",
+          "history": [
+            {
+              "timestamp": "2026-08-25T10:00:00+00:00",
+              "price": 3990
+            },
+            {
+              "timestamp": "2026-09-05T10:00:00+00:00",
+              "price": 3800
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 3490
+            }
+          ]
+        }
+      ],
+      "offers": [],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0020",
+          "products": [
+            "PROD-D-0020"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0020",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0021",
+    "dataset": "dev",
+    "family": "budget_preference",
+    "variant": "within_budget_after_offers",
+    "input_payload": {
+      "user_id": "USR-D-0021",
+      "product_id": "PROD-D-0021",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "OFFER_ADDED",
+        "product_id": "PROD-D-0021"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0021",
+          "budget_limit": 4000,
+          "minimum_saving": 500,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0021",
+          "name": "Wireless Headphones",
+          "category": "Audio",
+          "brand": "Sony",
+          "current_price": 4500,
+          "mrp": 6000,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 5000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0021",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0021",
+          "history": [
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 5000
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 4500
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "offer_id": "OFFER-D-D0021",
+          "product_id": "PROD-D-0021",
+          "type": "coupon",
+          "value": 300,
+          "valid_until": "2026-09-30T23:59:00+00:00",
+          "eligibility": "all_users",
+          "stackable": true
+        },
+        {
+          "offer_id": "OFFER-D-K0021",
+          "product_id": "PROD-D-0021",
+          "type": "bank_offer",
+          "value": 400,
+          "valid_until": "2026-09-30T23:59:00+00:00",
+          "eligibility": "bank_card",
+          "stackable": true,
+          "required_card": "HDFC"
+        }
+      ],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0021",
+          "products": [
+            "PROD-D-0021"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0021",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0022",
+    "dataset": "dev",
+    "family": "budget_preference",
+    "variant": "within_budget_after_offers",
+    "input_payload": {
+      "user_id": "USR-D-0022",
+      "product_id": "PROD-D-0022",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "OFFER_ADDED",
+        "product_id": "PROD-D-0022"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0022",
+          "budget_limit": 4000,
+          "minimum_saving": 500,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0022",
+          "name": "Wireless Headphones",
+          "category": "Audio",
+          "brand": "Sony",
+          "current_price": 4500,
+          "mrp": 6000,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 5000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0022",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0022",
+          "history": [
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 5000
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 4500
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "offer_id": "OFFER-D-D0022",
+          "product_id": "PROD-D-0022",
+          "type": "coupon",
+          "value": 300,
+          "valid_until": "2026-09-30T23:59:00+00:00",
+          "eligibility": "all_users",
+          "stackable": true
+        },
+        {
+          "offer_id": "OFFER-D-K0022",
+          "product_id": "PROD-D-0022",
+          "type": "bank_offer",
+          "value": 400,
+          "valid_until": "2026-09-30T23:59:00+00:00",
+          "eligibility": "bank_card",
+          "stackable": true,
+          "required_card": "HDFC"
+        }
+      ],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0022",
+          "products": [
+            "PROD-D-0022"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0022",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0023",
+    "dataset": "dev",
+    "family": "budget_preference",
+    "variant": "within_budget_after_offers",
+    "input_payload": {
+      "user_id": "USR-D-0023",
+      "product_id": "PROD-D-0023",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "OFFER_ADDED",
+        "product_id": "PROD-D-0023"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0023",
+          "budget_limit": 4000,
+          "minimum_saving": 500,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0023",
+          "name": "Wireless Headphones",
+          "category": "Audio",
+          "brand": "Sony",
+          "current_price": 4500,
+          "mrp": 6000,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 5000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0023",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0023",
+          "history": [
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 5000
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 4500
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "offer_id": "OFFER-D-D0023",
+          "product_id": "PROD-D-0023",
+          "type": "coupon",
+          "value": 300,
+          "valid_until": "2026-09-30T23:59:00+00:00",
+          "eligibility": "all_users",
+          "stackable": true
+        },
+        {
+          "offer_id": "OFFER-D-K0023",
+          "product_id": "PROD-D-0023",
+          "type": "bank_offer",
+          "value": 400,
+          "valid_until": "2026-09-30T23:59:00+00:00",
+          "eligibility": "bank_card",
+          "stackable": true,
+          "required_card": "HDFC"
+        }
+      ],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0023",
+          "products": [
+            "PROD-D-0023"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0023",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0024",
+    "dataset": "dev",
+    "family": "budget_preference",
+    "variant": "within_budget_after_offers",
+    "input_payload": {
+      "user_id": "USR-D-0024",
+      "product_id": "PROD-D-0024",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "OFFER_ADDED",
+        "product_id": "PROD-D-0024"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0024",
+          "budget_limit": 4000,
+          "minimum_saving": 500,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0024",
+          "name": "Wireless Headphones",
+          "category": "Audio",
+          "brand": "Sony",
+          "current_price": 4500,
+          "mrp": 6000,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 5000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0024",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0024",
+          "history": [
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 5000
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 4500
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "offer_id": "OFFER-D-D0024",
+          "product_id": "PROD-D-0024",
+          "type": "coupon",
+          "value": 300,
+          "valid_until": "2026-09-30T23:59:00+00:00",
+          "eligibility": "all_users",
+          "stackable": true
+        },
+        {
+          "offer_id": "OFFER-D-K0024",
+          "product_id": "PROD-D-0024",
+          "type": "bank_offer",
+          "value": 400,
+          "valid_until": "2026-09-30T23:59:00+00:00",
+          "eligibility": "bank_card",
+          "stackable": true,
+          "required_card": "HDFC"
+        }
+      ],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0024",
+          "products": [
+            "PROD-D-0024"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0024",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0025",
+    "dataset": "dev",
+    "family": "budget_preference",
+    "variant": "within_budget_after_offers",
+    "input_payload": {
+      "user_id": "USR-D-0025",
+      "product_id": "PROD-D-0025",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "OFFER_ADDED",
+        "product_id": "PROD-D-0025"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0025",
+          "budget_limit": 4000,
+          "minimum_saving": 500,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0025",
+          "name": "Wireless Headphones",
+          "category": "Audio",
+          "brand": "Sony",
+          "current_price": 4500,
+          "mrp": 6000,
+          "seller": "Seller-A",
+          "availability": "in_stock",
+          "saved_price": 5000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0025",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0025",
+          "history": [
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 5000
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 4500
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "offer_id": "OFFER-D-D0025",
+          "product_id": "PROD-D-0025",
+          "type": "coupon",
+          "value": 300,
+          "valid_until": "2026-09-30T23:59:00+00:00",
+          "eligibility": "all_users",
+          "stackable": true
+        },
+        {
+          "offer_id": "OFFER-D-K0025",
+          "product_id": "PROD-D-0025",
+          "type": "bank_offer",
+          "value": 400,
+          "valid_until": "2026-09-30T23:59:00+00:00",
+          "eligibility": "bank_card",
+          "stackable": true,
+          "required_card": "HDFC"
+        }
+      ],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0025",
+          "products": [
+            "PROD-D-0025"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0025",
+          "availability": "in_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0026",
+    "dataset": "dev",
+    "family": "multi_change",
+    "variant": "combined_state",
+    "input_payload": {
+      "user_id": "USR-D-0026",
+      "product_id": "PROD-D-0026",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "PRICE_CHANGED",
+        "product_id": "PROD-D-0026"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0026",
+          "budget_limit": 3800,
+          "minimum_saving": 400,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0026",
+          "name": "Wireless Headphones",
+          "category": "Audio",
+          "brand": "Sony",
+          "current_price": 4100,
+          "mrp": 6000,
+          "seller": "Seller-A",
+          "availability": "low_stock",
+          "saved_price": 5000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0026",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0026",
+          "history": [
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 5000
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 4100
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "offer_id": "OFFER-D-Q0026",
+          "product_id": "PROD-D-0026",
+          "type": "coupon",
+          "value": 350,
+          "valid_until": "2026-09-30T23:59:00+00:00",
+          "eligibility": "all_users",
+          "stackable": true
+        }
+      ],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0026",
+          "products": [
+            "PROD-D-0026"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0026",
+          "availability": "low_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0027",
+    "dataset": "dev",
+    "family": "multi_change",
+    "variant": "combined_state",
+    "input_payload": {
+      "user_id": "USR-D-0027",
+      "product_id": "PROD-D-0027",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "PRICE_CHANGED",
+        "product_id": "PROD-D-0027"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0027",
+          "budget_limit": 3800,
+          "minimum_saving": 400,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0027",
+          "name": "Wireless Headphones",
+          "category": "Audio",
+          "brand": "Sony",
+          "current_price": 4100,
+          "mrp": 6000,
+          "seller": "Seller-A",
+          "availability": "low_stock",
+          "saved_price": 5000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0027",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0027",
+          "history": [
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 5000
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 4100
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "offer_id": "OFFER-D-Q0027",
+          "product_id": "PROD-D-0027",
+          "type": "coupon",
+          "value": 350,
+          "valid_until": "2026-09-30T23:59:00+00:00",
+          "eligibility": "all_users",
+          "stackable": true
+        }
+      ],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0027",
+          "products": [
+            "PROD-D-0027"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0027",
+          "availability": "low_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0028",
+    "dataset": "dev",
+    "family": "multi_change",
+    "variant": "combined_state",
+    "input_payload": {
+      "user_id": "USR-D-0028",
+      "product_id": "PROD-D-0028",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "PRICE_CHANGED",
+        "product_id": "PROD-D-0028"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0028",
+          "budget_limit": 3800,
+          "minimum_saving": 400,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0028",
+          "name": "Wireless Headphones",
+          "category": "Audio",
+          "brand": "Sony",
+          "current_price": 4100,
+          "mrp": 6000,
+          "seller": "Seller-A",
+          "availability": "low_stock",
+          "saved_price": 5000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0028",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0028",
+          "history": [
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 5000
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 4100
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "offer_id": "OFFER-D-Q0028",
+          "product_id": "PROD-D-0028",
+          "type": "coupon",
+          "value": 350,
+          "valid_until": "2026-09-30T23:59:00+00:00",
+          "eligibility": "all_users",
+          "stackable": true
+        }
+      ],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0028",
+          "products": [
+            "PROD-D-0028"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0028",
+          "availability": "low_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0029",
+    "dataset": "dev",
+    "family": "multi_change",
+    "variant": "combined_state",
+    "input_payload": {
+      "user_id": "USR-D-0029",
+      "product_id": "PROD-D-0029",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "PRICE_CHANGED",
+        "product_id": "PROD-D-0029"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0029",
+          "budget_limit": 3800,
+          "minimum_saving": 400,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0029",
+          "name": "Wireless Headphones",
+          "category": "Audio",
+          "brand": "Sony",
+          "current_price": 4100,
+          "mrp": 6000,
+          "seller": "Seller-A",
+          "availability": "low_stock",
+          "saved_price": 5000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0029",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0029",
+          "history": [
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 5000
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 4100
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "offer_id": "OFFER-D-Q0029",
+          "product_id": "PROD-D-0029",
+          "type": "coupon",
+          "value": 350,
+          "valid_until": "2026-09-30T23:59:00+00:00",
+          "eligibility": "all_users",
+          "stackable": true
+        }
+      ],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0029",
+          "products": [
+            "PROD-D-0029"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0029",
+          "availability": "low_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "task_id": "CART-D-0030",
+    "dataset": "dev",
+    "family": "multi_change",
+    "variant": "combined_state",
+    "input_payload": {
+      "user_id": "USR-D-0030",
+      "product_id": "PROD-D-0030",
+      "objective": "Determine whether a meaningful purchasing opportunity exists.",
+      "trigger": {
+        "type": "PRICE_CHANGED",
+        "product_id": "PROD-D-0030"
+      }
+    },
+    "task_overrides": {
+      "users": [
+        {
+          "user_id": "USR-D-0030",
+          "budget_limit": 3800,
+          "minimum_saving": 400,
+          "preferred_brands": [
+            "Sony",
+            "JBL"
+          ],
+          "bank_cards": [
+            "HDFC"
+          ],
+          "notification_preferences": {
+            "notify_on_price_drop": true,
+            "notify_on_coupon": true,
+            "notify_on_stock_change": false
+          }
+        }
+      ],
+      "products": [
+        {
+          "product_id": "PROD-D-0030",
+          "name": "Wireless Headphones",
+          "category": "Audio",
+          "brand": "Sony",
+          "current_price": 4100,
+          "mrp": 6000,
+          "seller": "Seller-A",
+          "availability": "low_stock",
+          "saved_price": 5000
+        }
+      ],
+      "price_history": [
+        {
+          "product_id": "PROD-D-0030",
+          "evidence_id": "PRICE-HISTORY-PROD-D-0030",
+          "history": [
+            {
+              "timestamp": "2026-09-01T10:00:00+00:00",
+              "price": 5000
+            },
+            {
+              "timestamp": "2026-09-17T10:00:00+00:00",
+              "price": 4100
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "offer_id": "OFFER-D-Q0030",
+          "product_id": "PROD-D-0030",
+          "type": "coupon",
+          "value": 350,
+          "valid_until": "2026-09-30T23:59:00+00:00",
+          "eligibility": "all_users",
+          "stackable": true
+        }
+      ],
+      "saved_products": [
+        {
+          "user_id": "USR-D-0030",
+          "products": [
+            "PROD-D-0030"
+          ]
+        }
+      ],
+      "availability": [
+        {
+          "product_id": "PROD-D-0030",
+          "availability": "low_stock",
+          "updated_at": "2026-09-17T10:00:00+00:00"
+        }
+      ]
+    }
+  }
+]

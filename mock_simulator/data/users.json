@@ -1,0 +1,512 @@
+[
+  {
+    "user_id": "USR-D-0001",
+    "budget_limit": 4500,
+    "minimum_saving": 500,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0002",
+    "budget_limit": 4500,
+    "minimum_saving": 500,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0003",
+    "budget_limit": 4500,
+    "minimum_saving": 500,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0004",
+    "budget_limit": 4500,
+    "minimum_saving": 500,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0005",
+    "budget_limit": 4500,
+    "minimum_saving": 500,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0006",
+    "budget_limit": 6000,
+    "minimum_saving": 500,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0007",
+    "budget_limit": 6000,
+    "minimum_saving": 500,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0008",
+    "budget_limit": 6000,
+    "minimum_saving": 500,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0009",
+    "budget_limit": 6000,
+    "minimum_saving": 500,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0010",
+    "budget_limit": 6000,
+    "minimum_saving": 500,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0011",
+    "budget_limit": 4500,
+    "minimum_saving": 400,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0012",
+    "budget_limit": 4500,
+    "minimum_saving": 400,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0013",
+    "budget_limit": 4500,
+    "minimum_saving": 400,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0014",
+    "budget_limit": 4500,
+    "minimum_saving": 400,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0015",
+    "budget_limit": 4500,
+    "minimum_saving": 400,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0016",
+    "budget_limit": 4200,
+    "minimum_saving": 150,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0017",
+    "budget_limit": 4200,
+    "minimum_saving": 150,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0018",
+    "budget_limit": 4200,
+    "minimum_saving": 150,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0019",
+    "budget_limit": 4200,
+    "minimum_saving": 150,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0020",
+    "budget_limit": 4200,
+    "minimum_saving": 150,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0021",
+    "budget_limit": 4000,
+    "minimum_saving": 500,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0022",
+    "budget_limit": 4000,
+    "minimum_saving": 500,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0023",
+    "budget_limit": 4000,
+    "minimum_saving": 500,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0024",
+    "budget_limit": 4000,
+    "minimum_saving": 500,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0025",
+    "budget_limit": 4000,
+    "minimum_saving": 500,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0026",
+    "budget_limit": 3800,
+    "minimum_saving": 400,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0027",
+    "budget_limit": 3800,
+    "minimum_saving": 400,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0028",
+    "budget_limit": 3800,
+    "minimum_saving": 400,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0029",
+    "budget_limit": 3800,
+    "minimum_saving": 400,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  },
+  {
+    "user_id": "USR-D-0030",
+    "budget_limit": 3800,
+    "minimum_saving": 400,
+    "preferred_brands": [
+      "Sony",
+      "JBL"
+    ],
+    "bank_cards": [
+      "HDFC"
+    ],
+    "notification_preferences": {
+      "notify_on_price_drop": true,
+      "notify_on_coupon": true,
+      "notify_on_stock_change": false
+    }
+  }
+]
